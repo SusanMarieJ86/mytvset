@@ -24,11 +24,11 @@ jobs:
           ref: ${{ env.BRANCH_NAME }}
           persist-credentials: true # 确保 git push 时能读取到 token
           
-      # 【优化】升级到 v5 版本
-      - name: Run with setup-python 3.13
-        uses: actions/setup-python@v5
+      # 【优化】升级到 v6 版本
+      - name: Run with setup-python 3.14
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.13'
+          python-version: '3.14'
           update-environment: true
           cache: 'pipenv'
           
@@ -39,7 +39,7 @@ jobs:
         run: pip3 install --user pipenv
         
       - name: Install dependecies
-        run: pipenv --python 3.13 && pipenv install --deploy
+        run: pipenv --python 3.14 && pipenv install --deploy
         
       - name: Update
         run: pipenv run dev
@@ -55,6 +55,8 @@ jobs:
             # 如果只有你自己用，保持 --force 即可；否则建议去掉 --force。
             git push --force 
           fi
+
+
 # name: 'Update schedule'
 
 # # ⚠️注意：请不要在 fork 的仓库中添加 `on: schedule` 定时任务（cron）。

@@ -3,8 +3,18 @@
 # This is a list of subscription sources, with one subscription address per line
 # Supports setting UA: https://xxx.com/subscribe.m3u UA="xxx"
 
-
-
+https://raw.githubusercontent.com/lgg-lg/TvSourceFilter/main/output/new_result.txt
+https://raw.githubusercontent.com/lgg-lg/TvSourceFilter/main/collections/collection1.txt
+https://raw.githubusercontent.com/lgg-lg/TvSourceFilter/main/collections/collection2.txt
+https://raw.githubusercontent.com/lgg-lg/TvSourceFilter/main/collections/collection3.txt
+https://raw.githubusercontent.com/lgg-lg/TvSourceFilter/main/collections/collection4.txt
+https://raw.githubusercontent.com/lgg-lg/TvSourceFilter/main/collections/collection4.txt
+https://raw.githubusercontent.com/lgg-lg/TvSourceFilter/main/collections/JJqp.txt
+https://raw.githubusercontent.com/lgg-lg/TvSourceFilter/main/collections/symldm.txt
+https://raw.githubusercontent.com/lgg-lg/TvSourceFilter/main/collections/yspd.txt
+https://raw.githubusercontent.com/lgg-lg/IPTV/main/live.txt
+https://raw.githubusercontent.com/SusanMarieJ86/IPTV/main/live.txt
+http://45.192.97.170:6001/txt
 
 
 [WHITELIST]

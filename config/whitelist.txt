@@ -8,7 +8,19 @@
 
 
 
-
 [KEYWORDS]
 # 以下区域是关键字白名单，某频道获取到的接口地址中含有指定关键字，则该接口会被加入该频道的白名单，多条记录换行输入。
 # This area is the keyword whitelist. If the interface address obtained by a certain channel contains the specified keyword, the interface will be added to the whitelist of the channel, with multiple records entered on new lines.
+#260806
+rihou.cc:555
+live.chinacert.cftest5.cn
+110.42.52.180:6688
+112.27.235.94:8000
+38.75.136.137:98
+live.264788.xyz
+173.208.212.130:8181
+198.204.228.26
+107.150.60.122
+bztv.tvbus.cc:8081
+104.152.209.49:8181
+207.56.13.146:81

@@ -1,10 +1,9 @@
-blank_issues_enabled: true
-
+blank_issues_enabled: false
 contact_links:
-  - name: Ideas Discussion | 想法讨论
+  - name: Feature Suggestion | 功能建议
     url: https://github.com/Guovin/iptv-api/discussions/new?category=ideas
-    about: Discuss an early-stage idea before submitting a formal feature request | 在提交正式功能建议前讨论初步想法
+    about: Share ideas for enhancements or new features | 建议改进或增加新功能
 
-  - name: Support and Help | 使用问题与支持
+  - name: Support and Help | 支持与帮助
     url: https://github.com/Guovin/iptv-api/discussions/categories/q-a
-    about: Ask usage questions and get help here | 使用问题和答疑请前往这里
+    about: Please ask and answer questions here | 请在这里提问和答疑

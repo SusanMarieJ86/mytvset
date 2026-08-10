@@ -15,7 +15,8 @@ https://raw.githubusercontent.com/lgg-lg/TvSourceFilter/main/collections/yspd.tx
 https://raw.githubusercontent.com/lgg-lg/IPTV/main/live.txt
 https://raw.githubusercontent.com/SusanMarieJ86/IPTV/main/live.txt
 http://45.192.97.170:6001/txt
-
+https://raw.githubusercontent.com/SusanMarieJ86/mytvset/refs/heads/master/config/newsource1.txt
+https://raw.githubusercontent.com/SusanMarieJ86/mytvset/refs/heads/master/config/demo1.txt
 
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
